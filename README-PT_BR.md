@@ -158,4 +158,5 @@ A refatoração é algo comum no dia-a-dia do desenvolvedor, uma vez que é nece
  - Os posicionamentos da imagem de fundo da página foram removidos, uma vez que a imagem de fundo foi salva posteriormente como svg na pasta ***assets***, com o recorte exato. Assim, as propriedades ***`background-position-x`*** e ***`background-position-y`*** foram juntas em uma única propriedade (***`background-position`***) que recebe apenas o valor ***`top center`***, isto é, ***`top`*** no eixo Y e ***`center`*** no eixo X;
  - Ainda quanto ao ***background***, foram adicionadas as propriedades ***`background-repeat`*** e ***`background-size`*** com os valores ***`no-repeat`*** e ***`cover`*** (respectivamente), buscando que a imagem de fundo cubra toda a tela disponível.  
 
-    
+## 12.Conclusão  
+Esta semana foi muito importante para solidificar alguns conhecimentos que eu já tinha, assim como para aprender algumas coisas novas. O projeto proposto pela Rocketseat foi bastante interessante e me deu algumas boas ideias de criação. Se alguém ler este repositório e visitar a [página criada](https://bryrrea.github.io/nlw-copa-explorer), espero que tenha gostado! Até uma próxima! o/

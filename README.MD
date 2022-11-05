@@ -157,3 +157,5 @@ Refactoring is something common in a developer's day-to-day life, since it is ne
  - The positions of the page background image were removed, since the background image was later saved as svg in the **assets** folder, with the exact cropping. Thus, the properties **`background-position-x`** and **`background-position-y`** were joined into a single property (**`background-position`**) which receives only the value **`top center`**, i.e., **`top`** on the Y axis and **`center`** on the X axis;
  - - Still regarding **background**, the properties **`background-repeat`** and **`background-size`** have been added with the values **`no-repeat`** and **`cover`** (respectively), so that the background image covers the whole available screen.  
 
+## 12.Conclusion  
+This week was very important to consolidate some knowledge that I already had, as well as to learn some new things. The project proposed by Rocketseat was quite interesting and gave me some good creative ideas. If anyone reads this repository and visits the [created page](https://bryrrea.github.io/nlw-copa-explorer), I hope you enjoyed it! See you next time! o/
