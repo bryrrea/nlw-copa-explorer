@@ -121,6 +121,16 @@ header {
     width: 50px;
 }
 
+/* Responsiveness */
+
+@media (min-width: 700px) {
+    #cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 670px;
+    }
+}
+
 /*Animações*/
 
 .card h2:hover,
