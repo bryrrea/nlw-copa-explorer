@@ -13,17 +13,14 @@ I am currently taking the lessons from the Free Code Camp course, and for traini
 
 ## 3.Technologies and tools used  
 
-<img src="./assets-readme/html.svg" alt="Ícone do HTML" width="32px" style="color:#E34F26;" />
-<img src="./assets-readme/css.svg" alt="Ícone do CSS" width="32px" style="color:#1572B6;" />
-<img src="./assets-readme/javascript.svg" alt="Ícone do JavaScript" width="32px" style="color:#F7DF1E;" />
-<img src="./assets-readme/git.svg" alt="Ícone do GIT" width="32px" style="color:#F05032;" />
-<img src="./assets-readme/github.svg" alt="Ícone do GitHub" width="32px" style="color:#181717;" />  
+|<img src="./assets-readme/html.svg" alt="Ícone do HTML" width="32px" style="color:#E34F26;" /> <img src="./assets-readme/css.svg" alt="Ícone do CSS" width="32px" style="color:#1572B6;" /> <img src="./assets-readme/javascript.svg" alt="Ícone do JavaScript" width="32px" style="color:#F7DF1E;" /> <img src="./assets-readme/git.svg" alt="Ícone do GIT" width="32px" style="color:#F05032;" /> <img src="./assets-readme/github.svg" alt="Ícone do GitHub" width="32px" style="color:#181717;" />|
+|:--:| 
 
 ## 4.Project Prototype  
 
  |**Mobile version**|**Desktop version**|
  |:----------------:|:-----------------:|    
-|<img src="./assets-readme/mobile.jpg" alt="Imagem da versão mobile" height="256px" />| <img src="./assets/desktop.jpg" alt="Imagem da versão desktop" width="256px" />|  
+|<img src="./assets-readme/mobile.jpg" alt="Imagem da versão mobile" height="256px" />| <img src="./assets-readme/desktop.jpg" alt="Imagem da versão desktop" width="256px" />|  
 
 ## 5.HTML structure  
 As you can see in the images above, in the mobile version it is desirable that the cards are one below the other, while in the desktop version it is desirable that the cards are one next to the other. Thus, we should use a concept known as **"mobile first"**, i.e, we develop the application first thinking about mobile devices and then thinking about larger screen sizes.  

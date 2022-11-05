@@ -13,17 +13,14 @@ Atualmente, faço as lições do curso da Free Code Camp e, para treinar, comece
 
 ## 3.Tecnologias e ferramentas utilizadas  
 
-<img src="./assets-readme/html.svg" alt="Ícone do HTML" width="32px" style="color:#E34F26;" />
-<img src="./assets-readme/css.svg" alt="Ícone do CSS" width="32px" style="color:#1572B6;" />
-<img src="./assets-readme/javascript.svg" alt="Ícone do JavaScript" width="32px" style="color:#F7DF1E;" />
-<img src="./assets-readme/git.svg" alt="Ícone do GIT" width="32px" style="color:#F05032;" />
-<img src="./assets-readme/github.svg" alt="Ícone do GitHub" width="32px" style="color:#181717;" />  
+|<img src="./assets-readme/html.svg" alt="Ícone do HTML" width="32px" style="color:#E34F26;" /> <img src="./assets-readme/css.svg" alt="Ícone do CSS" width="32px" style="color:#1572B6;" /> <img src="./assets-readme/javascript.svg" alt="Ícone do JavaScript" width="32px" style="color:#F7DF1E;" /> <img src="./assets-readme/git.svg" alt="Ícone do GIT" width="32px" style="color:#F05032;" /> <img src="./assets-readme/github.svg" alt="Ícone do GitHub" width="32px" style="color:#181717;" />|
+|:--:|
 
 ## 4.Protótipo do projeto  
 
  |**Versão mobile**|**Versão desktop**|
  |:---------------:|:----------------:|    
-|<img src="./assets-readme/mobile.jpg" alt="Imagem da versão mobile" height="256px" />| <img src="./assets/desktop.jpg" alt="Imagem da versão desktop" width="256px" />|  
+|<img src="./assets-readme/mobile.jpg" alt="Imagem da versão mobile" height="256px" />| <img src="./assets-readme/desktop.jpg" alt="Imagem da versão desktop" width="256px" />|  
 
 ## 5.Estrutura HTML  
 Como é possível observar nas imagens acima, na versão mobile é desejável que os cartões estejam um abaixo do outro, enquanto na versão desktop é desejável que os cartões estejam um ao lado do outro. Assim, devemos utilizar um conceito conhecido como ***"mobile first"***, isto é, desenvolvemos a aplicação primeiro pensando nos dispositivos móveis para depois pensarmos em tamanhos de tela maiores.  
@@ -157,7 +154,7 @@ A refatoração é algo comum no dia-a-dia do desenvolvedor, uma vez que é nece
     createCard("28/11", "segunda", createGame("brazil", "13:00", "switzerland") + createGame("cameroon", "07:00", "serbia")) +
     createCard("02/12", "sexta", createGame("brazil", "16:00", "cameroon"))
     ```  
-    
+
  - Os posicionamentos da imagem de fundo da página foram removidos, uma vez que a imagem de fundo foi salva posteriormente como svg na pasta ***assets***, com o recorte exato. Assim, as propriedades ***`background-position-x`*** e ***`background-position-y`*** foram juntas em uma única propriedade (***`background-position`***) que recebe apenas o valor ***`top center`***, isto é, ***`top`*** no eixo Y e ***`center`*** no eixo X;
  - Ainda quanto ao ***background***, foram adicionadas as propriedades ***`background-repeat`*** e ***`background-size`*** com os valores ***`no-repeat`*** e ***`cover`*** (respectivamente), buscando que a imagem de fundo cubra toda a tela disponível.  
 
